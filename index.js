@@ -19,6 +19,6 @@ function submitData( name, email ) {
       document.body.innerHTML = object[ "id" ]
     } )
     .catch( function ( error ) {
-       error.message
+       console.log(error.message); error.message
     } )
 }
