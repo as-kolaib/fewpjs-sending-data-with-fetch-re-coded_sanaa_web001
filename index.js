@@ -2,10 +2,10 @@
 
 // let nameUser = document.getElementById("name").value;
 // let email = document.getElementById("email").value;
-function submitData(name , age){
+function submitData(name , email){
    let formData = {
   Name: nameUser,
-  Age: age
+  Age: email
 };
  
 let configObj = {
